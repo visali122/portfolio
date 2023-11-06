@@ -204,7 +204,7 @@ td,th {
 
 /* ----------------------for tablets,mobiles---------------------- */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 
     .header-wrapper {
         flex-direction: column-reverse;
@@ -255,7 +255,7 @@ td,th {
 
 /* ----------------------except tablets,mobiles--------------------- */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
     .python {
         grid-area: 3 / 2 / 4 / 3;
     }
