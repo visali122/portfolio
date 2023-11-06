@@ -182,7 +182,7 @@ td,th {
 /* -----------------------skills--------------------------- */
 
 .skill-title h1 {
-    text-align: center;
+    text-align: center,bold;
 }
 
 .skills {
@@ -255,7 +255,7 @@ td,th {
 
 /* ----------------------except tablets,mobiles--------------------- */
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 600px) {
     .python {
         grid-area: 3 / 3 / 4 / 4;
     }
