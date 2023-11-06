@@ -112,7 +112,7 @@ dt {
 }
 
 #profile-img {
-    width: 200px;
+    width: 300px;
     height: 300px;
     border-radius: 40%;
     background: url("./profile.jpg") no-repeat;
@@ -204,7 +204,7 @@ td,th {
 
 /* ----------------------for tablets,mobiles---------------------- */
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 600px) {
 
     .header-wrapper {
         flex-direction: column-reverse;
@@ -246,7 +246,7 @@ td,th {
         height: 64px;
     }
     .python {
-        grid-area: 5 / 2 / 6 / 3;
+        grid-area: 5 / 1 / 6 / 2;
     }
     
 }
@@ -257,7 +257,7 @@ td,th {
 
 @media screen and (min-width: 600px) {
     .python {
-        grid-area: 3 / 3 / 4 / 4;
+        grid-area: 3 / 2 / 4 / 3;
     }
 }
 
